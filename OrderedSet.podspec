@@ -26,4 +26,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {'OrderedSet_privacy' => ['Framework/PrivacyInfo.xcprivacy']}
   s.requires_arc = true
   s.source_files  = "Sources/*.{swift}"
+  s.resource_bundles = {
+    'OrderedSet_Privacy' => ['PrivacyInfo.xcprivacy']
+  }
 end
