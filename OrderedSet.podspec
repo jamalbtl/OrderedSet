@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'An implementation of an ordered set for Swift.'
   s.homepage         = 'https://github.com/jamalbtl/OrderedSet'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Your Name' => 'your.email@example.com' }
+  s.author           = { 'Jamal Ahmad' => 'support@alfnr.com' }
   s.source           = { :git => 'https://github.com/jamalbtl/OrderedSet.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.source_files = 'Sources/OrderedSet/**/*'
